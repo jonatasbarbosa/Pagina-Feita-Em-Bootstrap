@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/fontawesome-free-6.2.0-web/css/all.min.css'>
+
+    <script src='assets/js/bootstrap.min.js'></script>
+    <script src='assets/fontawesome-free-6.2.0-web/js/all.min.js'></script>
+</head>
+
+<body>
+    <div class="conteiner-fluid">
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">GoodPlate</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pratos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobremesas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bebidas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/vegan.jpg" class="d-block img-fluid" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/asparagus.jpg" class="d-block img-fluid " alt="...">
+
+
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/brownies.jpg" class="d-block img-fluid" alt="...">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="cont">
+            <div class="container">
+                <h2 class="text-center">Principais Pratos</h2>
+                <div class="row">
+                    <div class="col-md-4 mx-auto text-center">
+                        <div class="card text-center">
+                            <img src="assets/img/1.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Estrogonofe de Camarão</h5>
+                                <p class="card-text">Já experimentou essa deliciosa receita de Strogonoff de Camarão.
+                                </p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#myModal-p-1" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                        </div>
+                        <div id="myModal-p-1" class="modal" tabindex="-1">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Estrogonofe de Camarão</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3 class="modal-title">INGREDIENTES</h3>
+                                  <p>500 g de camarão cinza ou rosa</br>
+                                    1 colher de sobremesa rasa de margarina</br>
+                                    1 lata de creme de leite</br>
+                                    1 copo 200 ml de molho de tomate</br>
+                                    1 colher de sopa de mostarda</br>
+                                    1 cebola média picada</br>
+                                    2 alhos picados</br>
+                                    1 pitada de orégano</br>
+                                    Sal e pimenta do reino a gosto.</p>
+                                    <h3 class="modal-title">MODO DE PREPARO</h3>
+                                    <p>Limpe os camarões tirando a cabeça e a tripa.
+                                        Coloque em uma panela a manteiga.
+                                        Após derreter jogue a cebola e deixe refogar.
+                                        Quando a cebola estiver amarelinha jogue o alho para que ele refogue e não queime.
+                                        Quando dourar o alho jogue o camarão, o orégano, o sal e a pimenta do reino, misture para não grudar o camarão no fundo da panela.
+                                        Assim que secar a água do camarão, jogue o molho de tomate, a mostarda e misture.
+                                        Desligue o fogo, e antes de servir jogue o creme de leite sem o soro.
+                                        Dica: Caso queira o molho do strogonoff mais ralo, usar o soro do creme de leite na receita, ou acrescentar 1/4 de copo de leite.
+                                        O sabor não vai mudar, somente a consistência.
+                                        Servir com arroz branco e bata, pode ser palha, palito ou chips.</p>
+                                </div>
+                                
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/2.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nhoque de Batata</h5>
+                                <p class="card-text"> Aprenda como fazer de forma fácil a massa de nhoque da batata.</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#myModal-p-2" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-p-2" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Nhoque de Batata</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>6 batatas médias</br>
+                                        1 xícara de farinha de trigo</br>
+                                        sal a gosto</br>
+                                        Molho:</br>
+                                        1 lata de molho de tomate</br>
+                                        1/2 cebola</br>
+                                        1 colher (sopa) de azeite</br>
+                                        2 tabletes de caldo de carne</br>
+                                        1/2 kg de carne moída</br>
+                                        1 pacote de queijo ralado</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Cozinhe as batatas, em água, até que estejam macias.
+                                            Descasque-as e passe pelo espremedor ainda quentes.                                            
+                                            Vá acrescentando a farinha aos poucos e o sal, amasse bem.                                            
+                                            Coloque a massa sobre uma mesa enfarinhada e faça rolinhos.                                            
+                                            Corte cada rolinho em pedaços de mais ou menos 2 cm.                                            
+                                            Leve ao fogo, em uma panela com bastante água temperada com sal.                                            
+                                            Quando a água levantar fervura, vá colocando os nhoques, até eles começarem a subir.                                            
+                                            Coloque água fria em uma bacia com um escorredor dentro, retire os nhoques já cozidos e coloque-os no escorredor para dar choque térmico.                                            
+                                            Repita o processo até toda massa estar cozida.                                            
+                                            Escorra bem e coloque o nhoque em um refratário, reserve.
+                                            
+                                            MOLHO:                                            
+                                            Pique a cebola, bem miudinha e, em uma panela, frite com azeite.                                            
+                                            Acrescente a carne e os tabletes de caldo de carne.                                            
+                                            Mexa bem, quando a carne já estiver cozida, acrescente o molho e deixe cozinhar por mais 4 min.                                            
+                                            Despeje-o sobre o nhoque, salpique queijo em cima e leve ao forno para gratinar, sirva quente e bom apetite!.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/fricassee.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fricassé de Frango</h5>
+                                <p class="card-text">Essa receita de fricassé de frango é uma das melhores
+                                    receitas.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-target="#myModal-p-3" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-p-3" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Fricassé de Frango</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>1 lata de creme de leite</br>
+                                        1 lata de milho verde</br>
+                                        1 copo de requeijão cremoso</br>
+                                        100 g de azeitona sem caroço</br>
+                                        2 peitos de frango desfiados</br>
+                                        200 g de mussarela fatiada</br>
+                                        100 g de batata palha</br>
+                                        1 xícara de água</br>
+                                        1 pitada de sal</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Bata no liquidificador o milho, o requeijão, o creme de leite e a água.
+                                            Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa.                                            
+                                            Coloque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima.                                            
+                                            Leve ao forno até borbulhar.                                            
+                                            Sirva com arroz branco.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container sobrem">
+                <h2 class="text-center">Sobremesas</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/banoffee-pie-fresh-bananas.jpg"
+                                class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Banoffee Torta de Banana</h5>
+                                <p class="card-text">De origem inglesa, a banoffee é uma torta feita de banana
+                                    irresistível.
+                                </p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#myModal-s-1" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-s-1" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Banoffee Torta de Banana</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>400 g de doce de leite pronto de boa qualidade (escolha um que seja bem firme)</br>
+                                        10 bananas cortadas em rodelas</br>
+                                        400 g de nata (chantilly, se preferir)</br>
+                                        1 pacote de biscoito maisena triturado </br>
+                                        200 g de margarina culinária</br>
+                                        1 colher de chá de canela em pó para polvilhar</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Misture o biscoito triturado (tipo farinha, bem fininho) com a margarina culinária, com a ponta dos dedos, até formar uma massa lisa. Forre o fundo de uma forma de abrir (fundo falso), e asse por apenas 10 minutos, em forno preaquecido a 180°C. Retire. Deixe a massa esfriar.
+                                            Coloque o doce de leite sobre a massa já fria. Alise para ficar plano.                                            
+                                            Pique as bananas em rodelas, e distribua-as sobre o doce de leite.                                            
+                                            Coloque a nata por cima (se preferir, pode batê-la para deixar em ponto de chantilly), e alise.                                            
+                                            Pegue uma peneira pequena, e espalhe a canela por cima passando-a pela peneira, para que pulverize melhor por toda a torta.                                            
+                                            Deixe na geladeira por 3 horas antes de desenformar.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/brownies-choc.jpg" class="card-img-top mx-auto d-block rounded"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Brownie</h5>
+                                <p class="card-text">Brownie é um bolinho compacto de chocolate. Com a crosta crocante e
+                                    a
+                                    massa macia.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-target="#myModal-s-2" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-s-2" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Brownie</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>5 colheres de manteiga</br>
+                                        3 ovos</br>
+                                        3 xicara de achocolatado</br>
+                                        6 colheres de açúcar</br>
+                                        12 colheres de farinha de trigo</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Derreta a manteiga e reserve.
+                                            Enquanto derrete a manteiga, misture os 3 ovos e a açúcar e misture bem.
+                                            Acrescente a manteiga derretida no ovo e o açúcar.
+                                            Agora é so misturar o achocolatado e o trigo.
+                                            Unte uma forma com manteiga e achocolatado.
+                                            Leve ao forno a 180° C por 30 minutos.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/bombom.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bombom de Travessa</h5>
+                                <p class="card-text">Simples e fácil de fazer, o bombom na travessa é uma receita que
+                                    leva
+                                    apenas 5 ingredientes.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-target="#myModal-s-3" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-s-3" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Bombom de Travessa</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>250 g de chocolate ao leite</br>
+                                        250 g de chocolate meio amargo</br>
+                                        2 latas de leite condensado</br>
+                                        2 latas de creme de leite</br>
+                                        2 colheres de margarina</br>
+                                        2 caixas de morango</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Coloque as latas de leite condensado em uma panela com a manteiga e faça uma massa como um brigadeiro mole.
+                                            Coloque em uma travessa e, por cima deste brigadeiro mole, coloque os morangos cortados ao meio.
+                                            Reserve para fazer a cobertura.
+                                            Para fazer a cobertura, rale o chocolate ao leite e o meio amargo e misture ao creme de leite.
+                                            Misture e coloque no micro-ondas durante 1 minuto.
+                                            Retire e mexa
+                                            Coloque de novo no micro-ondas por mais 1 minuto.
+                                            Despeje a cobertura por cima dos morangos e leve à geladeira coberta por papel-filme.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container drinks">
+                
+                <h2 class="text-center">Bebidas</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/receitas-de-drinks-batidas.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Batidas de frutas</h5>
+                                <p class="card-text">As batidas de frutas são as receitas de drinks mais 
+                                    tradicionais e mais fáceis de servir no seu happy hour.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-target="#myModal-d-1" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>  
+                            <div id="myModal-d-1" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Batidas de frutas</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>1 xícara de cachaça, rum ou vodka de boa qualidade</br>
+                                        2 xícaras de polpa da fruta de sua preferência (abacaxi, morango,caju, acerola, pitanga, cajá, maracujá)</br>
+                                        2 xícaras de gelo picado</br>
+                                        1 lata de leite condensado</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Basta bater todos os ingredientes no liquidificador e servir.
+                                           Taças decoradas com flores e frutas dão um toque especial.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>                            
+                        </div> 
+                                           
+                    </div>                    
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/receitas-de-drinks-moscow-mule.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gin Mule</h5>
+                                <p class="card-text">O Gin Mule é uma bebida que virou tendência e que, 
+                                    por isso, você precisa ter no happy hour que vai organizar em casa.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-target="#myModal-d-2" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-d-2" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Gin Mule</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>50 ml de gim</br>
+                                        25 ml suco de limão-siciliano</br>
+                                        15 ml de xarope de amêndoas</br>
+                                        8 folhas de hortelã</br>
+                                        quanto baste de gelo</br>
+                                        quanto baste de ginger beer</br>
+                                        hortelã e fatias de gengibre para decorar</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Encha uma coqueteleira com gelo e coloque todos os ingredientes, menos a ginger beer.
+                                           Bata os ingredientes na coqueteleira e, em seguida, coe em copo longo com gelo.
+                                           Complete com a ginger beer artesanal.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>   
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card text-center">
+                            <img src="assets/img/receitas-de-drinks-quentão.jpg" class="card-img-top mx-auto d-block rounded" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vinho quente</h5>
+                                <p class="card-text">O dia está mais frio? Que tal servir um saboroso vinho quente para suas visitas?.</p>
+                                <a href="#" class="btn btn-primary" data-bs-target="#myModal-d-3" data-bs-toggle="modal" >Ver Receita</a>
+                            </div>
+                            <div id="myModal-d-3" class="modal" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Vinho quente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h3 class="modal-title">INGREDIENTES</h3>
+                                      <p>1 copo de açúcar</br>
+                                        canela em rama</br>
+                                        cravo</br>
+                                        1 l de vinho tinto seco</br>
+                                        1/2 litro de água</br>
+                                        1/2 maçã (verde ou vermelha) descascada e cortada em fatias</p>
+                                        <h3 class="modal-title">MODO DE PREPARO</h3>
+                                        <p>Queime a metade do açúcar com o cravo e a canela.
+                                            Acrescente o vinho, já misturado com a água.                                            
+                                            Junte a maçã e o açúcar restante.                                            
+                                            Deixe cozinhar um pouco e sirva bem quente.</p>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>                          
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>   
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </div>
+    
+    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2); ">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                <div class="text-center text-dark p-5">
+                    <p class="text-dark">© 2020 Copyright: Jonatas Barbosa</p>
+                </div>
+                <!-- Copyright -->
+            </section>
+            <!-- Section: Social media -->
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
